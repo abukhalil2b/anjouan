@@ -1,0 +1,38 @@
+/*@font-face {
+  font-family: "Helvetica Neue";
+  src:
+  url('../fonts/HelveticaNeueLTW20-Light.woff') format('woff'),
+  url('../fonts/HelveticaNeueLTW20-Light.svg') format('svg'),
+  url('../fonts/HelveticaNeueLTW20-Light.eot') format('embedded-opentype');
+}
+@font-face {
+  font-family: "KFC Naskh";
+  src:
+  url('../fonts/KFC_naskh.otf') format('opentype');
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  font-weight: 700;
+  src:
+  url('../fonts/HelveticaNeueLTW20-Bold.woff') format('woff'),
+  url('../fonts/HelveticaNeueLTW20-Bold.svg') format('svg'),
+  url('../fonts/HelveticaNeueLTW20-Bold.eot') format('embedded-opentype');
+}*/
+@font-face {
+  font-family: "Aref Menna";
+  src:url('../fonts/Aref_Menna.woff') format('woff');
+}
+body {
+  font-family: 'Aref Menna';
+}
+/* Start Reset*/
+a{
+  color:#000;
+}
+a:hover{
+  text-decoration: none;
+  cursor: pointer;
+  color:#495c6b;
+}
+
