@@ -3,7 +3,6 @@
 	margin:0;
 	padding: 0;
 }
-
 .tp-navbar{
 	position: absolute;
 	width: 100%;
@@ -19,55 +18,36 @@
 }
 .tp-navbar-btn{
 	display: flex;
-	place-content:space-between;
     align-items: center;
     margin-right: 25px;
 }
-
+.logo {
+	width: 50%;
+}
 .logo img{
-	width: 600px;
-	height: 430px;
+	width: 500px;
 }
 /* ---  #1 ---*/
-.round1outer{
-	background-color: green;
-    width: 75px;
-    height: 75px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.round1inner{
-	background-color: green;
-	width: 70px;
-	height: 70px;
-	border-radius: 50%;
-	border: 3px solid #fff;
-	display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.round1inner span{
-	font-weight: bold;
-	color: #fff;
-	font-size: 1.5rem;
+.lang{
+	font-size: 26px;
+	color: #399728;
 }
 
 /* ---  #2 ---*/
 .round2outer{
-	background-color: green;
-    width: 85px;
-    height: 85px;
+	background-color: #399728;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 10px;
 }
 .round2inner{
-	background-color: green;
-	width: 80px;
-	height: 80px;
+	background-color: #399728;
+	width: 60px;
+	height: 60px;
 	border-radius: 50%;
 	border: 3px solid #fff;
 	display: flex;
@@ -77,23 +57,24 @@
 .round2inner span{
 	font-weight: bold;
 	color: #fff;
-	font-size: 1.5rem;
+	font-size: 22px;
 }
 
 /* ---  #3 ---*/
 .round3outer{
-	background-color: green;
-    width: 105px;
-    height: 105px;
+	background-color: #399728;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 10px;
 }
 .round3inner{
-	background-color: green;
-	width: 100px;
-	height: 100px;
+	background-color: #399728;
+	width: 90px;
+	height: 90px;
 	border-radius: 50%;
 	border: 3px solid #fff;
 	display: flex;
@@ -108,18 +89,19 @@
 
 /* ---  #4 ---*/
 .round4outer{
-	background-color: green;
-    width: 115px;
-    height: 115px;
+	background-color: #399728;
+    width: 130px;
+    height: 130px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 10px;
 }
 .round4inner{
-	background-color: green;
-	width: 110px;
-	height: 110px;
+	background-color: #399728;
+	width: 120px;
+	height: 120px;
 	border-radius: 50%;
 	border: 3px solid #fff;
 	display: flex;
@@ -134,18 +116,19 @@
 
 /* ---  #4 ---*/
 .round5outer{
-	background-color: green;
-    width: 125px;
-    height: 125px;
+	background-color: #399728;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 10px;
 }
 .round5inner{
-	background-color: green;
-	width: 120px;
-	height: 120px;
+	background-color: #399728;
+	width: 150px;
+	height: 150px;
 	border-radius: 50%;
 	border: 3px solid #fff;
 	display: flex;
@@ -158,3 +141,31 @@
 	color: #fff;
 	font-size: 3rem;
 }
+
+/* --- cart ---*/
+.cart-img{
+	position: relative;
+	display: block;
+	width: 100%;
+}
+
+.cart-img img{
+	width: 110px;
+	display: block;
+}
+
+#cartValue{
+	position: absolute;
+    top: 16%;
+    right: 16px;
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* --- arrow ---*/
+.arrow-righ{
+	width: 100px;
+	height: 20px;
+}
+

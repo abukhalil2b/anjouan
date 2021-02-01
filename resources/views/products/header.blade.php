@@ -8,7 +8,6 @@
 	<link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('css/main.css')}}">
 	<link rel="stylesheet" href="{{asset('css/products/style.css')}}">
-	<link rel="stylesheet" href="{{asset('css/parts/style.css')}}">
 </head>
 <body>
 

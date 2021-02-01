@@ -1,12 +1,12 @@
 <div class="social">
 	<a href="">
-		<img src="{{asset('img/social/face.png')}}" alt="">
+		<img class="social-img" src="{{asset('img/social/face.png')}}" alt="">
 	</a>
 	<a href="">
-		<img src="{{asset('img/social/inst.png')}}" alt="" >
+		<img class="social-img" src="{{asset('img/social/inst.png')}}" alt="" >
 	</a>
 	<a href="">
-		<img src="{{asset('img/social/twitter.png')}}" alt="">
+		<img class="social-img" src="{{asset('img/social/twitter.png')}}" alt="">
 	</a>
 
 </div>

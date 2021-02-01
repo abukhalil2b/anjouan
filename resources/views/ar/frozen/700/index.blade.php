@@ -8,23 +8,27 @@
 	<link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('css/main.css')}}">
 	<link rel="stylesheet" href="{{asset('css/frozen/700/style.css')}}">
+	<link rel="stylesheet" href="{{asset('css/frozen/style.css')}}">
 </head>
 <body>
 
 <div class="header">
 	<div class="tp-navbar">
+	<img class="cart-white" src="{{asset('img/icons/cart-white.png')}}" alt="logo">
+	<img class="mobile-logo" src="{{asset('img/logo/brown-footer.png')}}" alt="logo">
+	<img class="hum" src="{{asset('img/icons/hum.png')}}" alt="logo">
 	<div class="tp-navbar-btn-container">
-		<div class="tp-navbar-btn mt-4">
+		<div class="tp-navbar-btn mt-4 mobile-links">
 			@include('ar.frozen._header_links')
 		</div>
 		<div class="cart-img mt-3">
 			<img src="{{asset('img/cart/brown.png')}}" alt="">
 			<div id="cartValue" >0</div>
 		</div>
-		<img class="arrow-righ mt-3" src="{{asset('img/icons/arrow-right.png')}}" alt="arrow">
+		<img class="arrow-righ mt-3 mobile-arrow" src="{{asset('img/icons/arrow-right.png')}}" alt="arrow">
 	</div>
 	<div class="logo">
-		<img src="{{asset('img/logo/brown.png')}}" alt="logo">
+		<img class="logo-top" src="{{asset('img/logo/brown.png')}}" alt="logo">
 	</div>
 </div>
 
@@ -35,6 +39,15 @@
 		<span>تحميل المعلومات</span>
 	</a>
 	</div>
+
+
+	<div class="title-mobile">
+		<h2> دجاج كامل مجمد بدون أحشاء
+
+		</h2>
+		<span>٨٠٠ جرام</span>
+	</div>
+
 <div class="content">
 	<div class="right">
 		<div class="title">
@@ -59,8 +72,12 @@
 				متوسط الكميات لكل
 				<span>١٠٠ جرام</span>
 			</div>
+			<div class="preserve-mobile">
+				<span>ملحوظة</span> خالي من المواد الحافظة
+			</div>
 		</div>
 	</div>
+
 	<div class="left">
 		<div class="select-list">
 			<div class="select1 selects">
@@ -91,7 +108,7 @@
 @include('ar.frozen._show')
 
 <div class="footer">
-	<img src="{{asset('img/logo/brown-footer.png')}}" alt="">
+	<img class="footer-logo-img" src="{{asset('img/logo/brown-footer.png')}}" alt="">
 	@include('ar.frozen._social')
 </div>
 @include('ar.frozen._script')

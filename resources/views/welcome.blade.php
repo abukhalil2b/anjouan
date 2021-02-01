@@ -4,20 +4,35 @@
 <div class="overlay">
 	<div class="tp-navbar">
 		<div class="tp-navbar-btn-container">
-			<div class="tp-navbar-btn mt-5">
-				<div class="round5outer">
-					<a href="{{route('products.all')}}">
-						<div class="round5inner"><span>منتجاتنا</span></div>
-					</a>
-				</div>
-				<div class="round4outer"><div class="round4inner"><span>الإنتاج</span></div></div>
-				<div class="round3outer"><div class="round3inner"><span>المتجر</span></div></div>
-				<div class="round2outer"><div class="round2inner"><span>اتصل بنا</span></div></div>
-				<div class="round1outer"><div class="round1inner"><span>En</span></div></div>
+			<div class="tp-navbar-btn mt-4">
+				<a href="{{route('products.all')}}">
+					<div class="round5outer"><div class="round5inner"><span>منتجاتنا</span></div></div>
+				</a>
+
+				<a href="">
+					<div class="round4outer"><div class="round4inner"><span>الإنتاج</span></div></div>
+				</a>
+
+				<a href="">
+					<div class="round3outer"><div class="round3inner"><span>المتجر</span></div></div>
+				</a>
+
+				<a href="">
+					<div class="round2outer"><div class="round2inner"><span>اتصل بنا</span></div></div>
+				</a>
+
+				<a href="">
+					<div class="lang">English</div>
+				</a>
 			</div>
+			<div class="cart-img mt-3">
+				<img src="{{asset('img/cart/green.png')}}" alt="">
+				<div id="cartValue" >0</div>
+			</div>
+			<img class="arrow-righ mt-3" src="{{asset('img/icons/arrow-right.png')}}" alt="arrow">
 		</div>
 		<div class="logo">
-			<img src="{{asset('img/logo/green.png')}}" alt="">
+			<img src="{{asset('img/logo/green.png')}}" alt="logo">
 		</div>
 	</div>
 
