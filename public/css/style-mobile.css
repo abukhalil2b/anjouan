@@ -1,0 +1,91 @@
+.mobile-header,.mobile-bg, #mobile-side-nav-container{
+	display: none;
+}
+@media(max-width: 1000px){
+
+	.overlay{
+		display: none;
+	}
+	.mobile-bg{
+		margin-top: 10%;
+		display: block;
+		width: 100%;
+	}
+
+	#mobile-side-nav-container{
+		height: 100vh;
+		width: 50vw;
+		background-color: #159548;
+		position: fixed;
+		z-index: 1;
+	}
+	#close-side-nave{
+		width: 100%;
+		height: 50px;
+		background-color: red;
+		color: #fff;
+		text-align: center;;
+		font-size: 33px;
+		margin-top: 5%;
+	}
+
+	.mobile-nav-btn{
+		margin-top: 5%;
+		display: inline-block;
+		width: 100%;
+		height: 50px;
+		background-color: green;
+		color: #fff;
+		text-align: center;;
+		font-size: 33px;
+	}
+
+	.mobile-header{
+		display: block;
+		background-color: #159548;
+		width: 100%;
+		min-height: 150px;
+		text-align: center;
+		display: grid;
+		grid-template-columns: 33% 33% 33%;
+		
+	}
+
+	.mobile-header .cart{
+		width: 150px;
+		justify-self:start;
+		align-self: center;
+	}
+	.mobile-header .logo{
+		width: 200px;
+		justify-self:center;
+		align-self: center;
+		margin-bottom: -80px;
+	}
+	.mobile-header .hum{
+		width: 100px;
+		height: 80px;
+		justify-self:end;
+		align-self: center;
+	}
+
+	.title{
+		padding-top: 10%;
+	}
+
+	.best1{
+		padding-top:10%;
+	}
+
+	.best1,.best2,.best3{
+		width: 90%;
+	}
+
+	.recipes{
+		height: 100%;
+	}
+
+	.footer{
+		margin-top: 30%;
+	}
+}

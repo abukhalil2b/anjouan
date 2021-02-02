@@ -1,6 +1,8 @@
 @extends('layouts.main')
 
 @section('content')
+<link rel="stylesheet" href="{{asset('css/style-mobile.css')}}">
+
 <div class="overlay">
 	<div class="tp-navbar">
 		<div class="tp-navbar-btn-container">
@@ -37,8 +39,21 @@
 	</div>
 
 	<img class="bg" src="{{asset('img/welcome/bg1.png')}}" alt="">
+
 </div>
 
+<div id="mobile-side-nav-container">
+	<a class="mobile-nav-btn" href="{{route('products.all')}}">products</a>
+	<div id="close-side-nave">close</div>
+</div>
+
+<div class="mobile-header">
+	<img class="cart" src="{{asset('img/icons/cart-white.png')}}" alt="">
+	<img class="logo" src="{{asset('img/logo/green-footer.png')}}" alt="">
+	<img id="hum" class="hum" src="{{asset('img/icons/hum.png')}}" alt="">
+</div>
+
+<img class="mobile-bg" src="{{asset('img/welcome/bg1.png')}}" alt="">
 
 <center class="title">الإختيار الأفضل لعائلتك</center>
 <div class="best">
@@ -71,4 +86,17 @@
 	<span class="copyright">جميع الحقوق محفظة&copy</span>
 </div>
 
+<script>
+
+	document.getElementById('hum').addEventListener('click',()=>{
+		document.getElementById('mobile-side-nav-container').style.display='block';
+
+	});
+
+	document.getElementById('close-side-nave').addEventListener('click',()=>{
+		document.getElementById('mobile-side-nav-container').style.display='none';
+
+	});
+
+</script>
 @endsection

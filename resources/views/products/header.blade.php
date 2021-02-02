@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('css/main.css')}}">
 	<link rel="stylesheet" href="{{asset('css/products/style.css')}}">
+	<link rel="stylesheet" href="{{asset('css/products/mobile-style.css')}}">
 </head>
 <body>
 
@@ -31,5 +32,10 @@
 			<img src="{{asset('img/logo/green.png')}}" alt="logo">
 		</div>
 	</div>
+</div>
 
+<div class="mobile-header">
+	<img class="cart" src="{{asset('img/icons/cart-white.png')}}" alt="">
+	<img class="logo" src="{{asset('img/logo/green-footer.png')}}" alt="">
+	<img id="hum" class="hum" src="{{asset('img/icons/hum.png')}}" alt="">
 </div>
