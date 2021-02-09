@@ -39,3 +39,15 @@
 	<img class="logo" src="{{asset('img/logo/green-footer.png')}}" alt="">
 	<img id="hum" class="hum" src="{{asset('img/icons/hum.png')}}" alt="">
 </div>
+
+<div class="mobile-header-icons-grid">
+	<div class="mobile-header-arrow-right">
+		<img class="mobile-arrow-icon" src="{{asset('img/icons/arrow-right.png')}}" alt="">
+	</div>
+
+	<div class="mobile-header-download-green">
+		<img class="mobile-download-icon" src="{{asset('img/icons/download/green.png')}}" alt="">
+		<span class="mobile-download-txt">تحميل المعلومات</span>
+	</div>
+
+</div>

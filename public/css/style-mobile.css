@@ -89,3 +89,22 @@
 		margin-top: 30%;
 	}
 }
+
+@media(max-width: 500px){
+	.recipes2{
+		width: 100%;
+		padding:10% 0;
+		margin:0;
+	}
+	.recipes1{
+		padding:10% 0;
+	}
+
+	.cart{
+		width: 100px !important;
+	}
+	 .hum{
+	 	width: 65px !important;
+	 	height: 45px !important;
+	 }
+}

@@ -43,8 +43,8 @@
 </div>
 
 <div id="mobile-side-nav-container">
-	<a class="mobile-nav-btn" href="{{route('products.all')}}">products</a>
-	<div id="close-side-nave">close</div>
+	<a class="mobile-nav-btn" href="{{route('products.all')}}">منتجاتنا</a>
+	<div id="close-side-nave" class=" btn-sm">إغلاق النافذة</div>
 </div>
 
 <div class="mobile-header">

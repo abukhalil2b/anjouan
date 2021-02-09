@@ -127,6 +127,7 @@
 	    display: flex;
 	    align-items: center;
 	    min-height: 500px;
+	    margin-right: 10px;
 	}
 
 	.qunt{
@@ -145,6 +146,8 @@
 	}
 	.footer{
 		width:100%;
+		margin: 12% 0 0 0;
+		height: 100% !important;
 	}
 	.footer-logo-img{
 		 width: 30% !important;
@@ -187,4 +190,5 @@
 		width: 200px;
 		font-size: 20px;
 	}
+	
 }

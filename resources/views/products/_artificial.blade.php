@@ -3,7 +3,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4 artificial-imgs">
-				<img src="{{asset('img/artificial/turmeric/برجر الدجاج بالكركم مجمد 480 جرام.png')}}" alt="">
+				<img src="{{asset('img/artificial/turmeric/كركم.png')}}" alt="">
 			</div>
 			<div class="col-md-4 artificial-imgs">
 				<img src="{{asset('img/artificial/spicy/برجر دجاج حار  1.png')}}" alt="">

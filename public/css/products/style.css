@@ -315,11 +315,20 @@
 /*----------parts imgs---------*/
 .parts{
 	height: 100vh;
+
 }
 .parts-imgs img{
-	width: 200px;
+	width: 230px;
 }
-
+.parts-imgs-txt-blue{
+	color: #28388d;
+	font-size: 22px;
+	text-align: center;
+}
+.parts-imgs-txt-red{
+	color: #b82027;
+	font-size: 22px;
+}
 /*----------artificial imgs---------*/
 .artificial{
 	height: 100vh;
